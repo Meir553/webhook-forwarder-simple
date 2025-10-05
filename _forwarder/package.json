@@ -1,0 +1,18 @@
+{
+  "name": "webhook-forwarder",
+  "version": "1.1.0",
+  "description": "Brandable webhook forwarder with GUI, dynamic routes, and execution history",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.0.1",
+    "morgan": "^1.10.0",
+    "raw-body": "^3.0.0",
+    "undici": "^6.19.8"
+  }
+}
